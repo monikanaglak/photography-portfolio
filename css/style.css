@@ -85,11 +85,11 @@ ul li{
 .icones{
     display: flex;
     position: absolute;
-    top:95%;
+    top:92%;
     width: 50vw;
     gap:70px;
 
-    color:red;
+    
 }
 .black{
     display: flex;
