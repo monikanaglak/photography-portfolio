@@ -127,7 +127,9 @@ section,article{
           padding: 0 50px;
           
       }
-      
+      .container{
+        height: 150vh;
+      }
   }
   @media only screen and (max-width:1200px){
       header{
@@ -151,20 +153,10 @@ section,article{
   @media only screen and (max-width:1100px){
       header{
           padding: 0 10px;
-         
+        
       }
-      .photography{
-          font-size: 2.5rem;
-          left:8%;
-      }
-      .portfolio{
-          font-size: 1.6rem;
-          left:42%;
-      }
-     
       
-      
-  }
+    }
   @media only screen and (max-width:1000px){
       
       .hamburger{
@@ -180,14 +172,7 @@ section,article{
           background: black;
           margin: 4px 0;
       }
-      .photography{
-          font-size: 2.0rem;
-          left:5%;
-      }
-      .portfolio{
-          font-size: 1.5rem;
-          left:25%;
-      }
+     
       .nav-bar{
           display: none;
       }
@@ -195,6 +180,19 @@ section,article{
       .medias{
           bottom: 270px;
           justify-content: space-around;
+      }
+      .hero-image img{
+        display: none;
+      }
+      
+      .black{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+      .black-box{
+       
+        width: 80%;
       }
       
       
@@ -214,12 +212,7 @@ section,article{
           background: black;
           margin: 4px 0;
       }
-      .photography{
-          display: none;
-      }
-      .portfolio{
-          display: none;
-      }
+      
       .nav-bar{
           display: none;
       }
@@ -240,15 +233,11 @@ section,article{
           right: 10%;
       }
       .hero-image img{
-          width: 100%;
-          height: 100%;
-          object-fit: cover;
+         display: none;
          
       }
       
-      .black-box{
-          display: none;
-      }
+     
       
       
   }
