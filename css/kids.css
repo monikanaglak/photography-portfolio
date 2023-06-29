@@ -1,0 +1,69 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  header{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+}
+.kids-main{
+  max-width: 1400px;
+  min-height: 100vh;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.nav-bar ul{
+    display: flex;
+    margin-left: 5.5vw;
+    margin-top: 7%;
+}
+ul li{
+    list-style: none;
+}
+.nav-bar ul li a{
+    font-size: 1rem;
+    padding: 10px 20px;
+    transition: 0.2s;
+    margin: 0 5px;
+    text-transform: uppercase;
+    color:black;
+}
+.nav-bar ul li a:hover{
+    background-color: black;
+    color:white;
+    border:none;
+}
+.kids-first{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+   .container-kids {
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+    background-color: white;
+  }
+.kids-second{
+    display: flex;
+    justify-content: center;
+    margin-top: 5vh;
+}
+.kids-third{
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5vh;
+}
+.kids-four{
+  display: flex;
+  justify-content: center;
+  margin-top: 5vh;
+}
